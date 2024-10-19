@@ -23,7 +23,7 @@ function UBasket({ userFoods, total, setTotal }) {
   return (
     <div className={`${styles.Ubasket} ${isExpanded ? styles.expanded : ""}`}>
       <div className={styles.basketIcon} onClick={toggleBasket}>
-        {/* Add your basket icon here */}
+        🧺
       </div>
 
       {isExpanded && (
