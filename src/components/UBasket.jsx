@@ -36,6 +36,7 @@ function UBasket({ userFoods, total, setTotal }) {
           ))}
           <div className={styles.total}>
             <p>قابل پرداخت : {total}</p>
+            <button className={styles.paymentButton}>پرداخت</button>
           </div>
         </div>
       )}
