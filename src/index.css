@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(35, 35, 35);
+  color: white;
+  /* text-align: right; */
+}
+/* body {
+  max-width: 43.75rem;
+  min-width: 440px;
+} */
+@font-face {
+  font-family: IranSans;
+  src: url(./fonts/IRANSansXFaNum-Black.woff);
+  src: url(./fonts/IRANSansXFaNum-Bold.woff);
+}

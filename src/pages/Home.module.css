@@ -1,0 +1,8 @@
+.Home {
+  max-width: 700px;
+  min-width: 440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}

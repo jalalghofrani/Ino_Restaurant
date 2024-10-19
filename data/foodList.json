@@ -1,0 +1,101 @@
+{
+  "foodList": [
+    {
+      "img": "https://cdn.topmenumarket.com/storage/item/453/conversions/thumbnail/F4PSrB9agyA21k8gFeByD5yn9cjALrvOyY6wKWxw-thumbnail.webp",
+      "name": "شیشلیک مخصوص شاندیز",
+      "engName": "Shandiz Special Lamb chaps",
+      "ingridiants": "500 گرم شیشلیک مخصوص با دورچین به همراه برنج ایرانی و سرویس کامل",
+      "priceWS": 1120000,
+      "priceNS": 970000,
+      "id": 1,
+      "chosed": false,
+      "category": "withService, withoutService"
+    },
+    {
+      "img": "https://cdn.topmenumarket.com/storage/item/461/conversions/thumbnail/bVAZon23hLqUYS9OTmjKoEwVBnd1wqeg2hDgwOcv-thumbnail.webp",
+      "name": "شیشلیک دو نفره {550 گرم }",
+      "engName": "Two Person Shandiz Special lamb chaps (600g)",
+      "ingridiants": "550 گرم شیشلیک با دورچین به همراه دو پرس برنج ایرانی و دو عدد سرویس کامل",
+      "priceWS": 1450000,
+      "id": 3,
+      "chosed": false,
+      "category": "withService"
+    },
+    {
+      "img": "https://cdn.topmenumarket.com/storage/item/454/conversions/thumbnail/d5vNsaIa9pVoR5GRD8RRzhZeILTlI3HvseeQRcjV-thumbnail.webp",
+      "name": "فیله کباب مخصوص شاندیز",
+      "engName": "Two Person Shandiz Special Lamb",
+      "ingridiants": "300 کرم فیله گوسفندی",
+      "priceWS": 990000,
+      "priceNS": 840000,
+      "id": 4,
+      "chosed": false,
+      "category": "withService, withoutService"
+    },
+    {
+      "img": "https://cdn.topmenumarket.com/storage/item/455/conversions/thumbnail/cinOYBUolnLz2CeO5SCtBQ6h0j0CWazSlq6cUdQi-thumbnail.webp",
+      "name": "چلوکباب برگ مخصوص شاندیز",
+      "engName": "Shandiz Special Fillet Kabab",
+      "ingridiants": "",
+      "priceWS": 990000,
+      "id": 5,
+      "chosed": false,
+      "category": "withService"
+    },
+    {
+      "img": "https://cdn.topmenumarket.com/storage/item/455/conversions/thumbnail/cinOYBUolnLz2CeO5SCtBQ6h0j0CWazSlq6cUdQi-thumbnail.webp",
+      "name": "ماهیچه مخصوص شاندیز",
+      "engName": "",
+      "ingridiants": "",
+      "priceWS": 1200000,
+      "priceNS": 1050000,
+      "id": 6,
+      "chosed": false,
+      "category": "withService, withoutService"
+    },
+    {
+      "img": "https://cdn.topmenumarket.com/storage/item/455/conversions/thumbnail/cinOYBUolnLz2CeO5SCtBQ6h0j0CWazSlq6cUdQi-thumbnail.webp",
+      "name": "ماهیچه مخصوص شاندیز",
+      "engName": "",
+      "ingridiants": "",
+      "priceWS": 1200000,
+      "priceNS": 1050000,
+      "id": 7,
+      "chosed": false,
+      "category": "withService, withoutService"
+    },
+    {
+      "img": "https://cdn.topmenumarket.com/storage/item/455/conversions/thumbnail/cinOYBUolnLz2CeO5SCtBQ6h0j0CWazSlq6cUdQi-thumbnail.webp",
+      "name": "ماهیچه مخصوص شاندیز",
+      "engName": "",
+      "ingridiants": "",
+      "priceWS": 1200000,
+      "priceNS": 1050000,
+      "id": 8,
+      "chosed": false,
+      "category": "withService, withoutService"
+    },
+    {
+      "img": "https://cdn.topmenumarket.com/storage/item/455/conversions/thumbnail/cinOYBUolnLz2CeO5SCtBQ6h0j0CWazSlq6cUdQi-thumbnail.webp",
+      "name": "ماهیچه مخصوص شاندیز",
+      "engName": "",
+      "ingridiants": "",
+      "priceWS": 1200000,
+      "priceNS": 1050000,
+      "id": 9,
+      "chosed": false,
+      "category": "withService, withoutService"
+    },
+    {
+      "img": "https://cdn.topmenumarket.com/storage/item/455/conversions/thumbnail/cinOYBUolnLz2CeO5SCtBQ6h0j0CWazSlq6cUdQi-thumbnail.webp",
+      "name": "نوشابه",
+      "engName": "",
+      "ingridiants": "",
+      "priceWS": 18000,
+      "priceNS": 18000,
+      "id": 10,
+      "chosed": false,
+      "category": "services"
+    }
+  ]
+}

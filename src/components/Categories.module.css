@@ -1,0 +1,70 @@
+.category {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 70px);
+  align-items: center;
+  gap: 5px;
+  /* text-decoration: none; */
+}
+.services {
+  width: 100%;
+  height: calc(100% / 3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  text-decoration: none;
+  font-size: larger;
+  border-radius: 12px;
+}
+.backg1 {
+  position: relative;
+  z-index: 1;
+}
+.backg1::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url(https://cdn.topmenumarket.com/storage/category/91/thumbnail/y9jFpeAdM2a4rlPaLczP748Xds77aH0FiewQiDxM.png);
+  opacity: 0.3;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.backg2 {
+  position: relative;
+  z-index: 1;
+}
+.backg2::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url(https://cdn.topmenumarket.com/storage/category/92/conversions/thumbnail/UimuvGQt7XIOSQFl6nygy6AcX7ew4bbYUhitT5wQ-thumbnail.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.3;
+}
+.backg3 {
+  position: relative;
+  z-index: 1;
+}
+.backg3::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url(https://cdn.topmenumarket.com/storage/category/93/conversions/thumbnail/x8i7RXheik0GuIMGhYCFa6o3iPNXYctY10F367ai-thumbnail.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.3;
+}
