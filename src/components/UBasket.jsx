@@ -1,8 +1,11 @@
 import { useEffect, useState } from "react";
 import styles from "./UBasket.module.css";
+import { usePosts } from "./PostProvider";
 
-function UBasket({ userFoods, total, setTotal }) {
+function UBasket() {
   const [isExpanded, setIsExpanded] = useState(false);
+
+  const { userFoods, total, setTotal } = usePosts();
 
   const toggleBasket = () => {
     setIsExpanded(!isExpanded);
