@@ -16,6 +16,11 @@ function PostProvider({ children }) {
   const handleFoodAdd = (food) => {
     setUserFoods([...userFoods, food]);
   };
+  const handleFoodRemove = (name) => {
+    setUserFoods(userFoods.filter((food) => food.name !== name));
+    console.log(userFoods);
+  };
+
   useEffect(function () {
     async function fetchFoodList() {
       try {
@@ -38,6 +43,7 @@ function PostProvider({ children }) {
         foodList,
         userFoods,
         handleFoodAdd,
+        handleFoodRemove,
         total,
         setTotal,
         setFoodList,

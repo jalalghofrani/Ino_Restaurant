@@ -5,7 +5,7 @@ import { usePosts } from "./PostProvider";
 function UBasket() {
   const [isExpanded, setIsExpanded] = useState(false);
 
-  const { userFoods, total, setTotal } = usePosts();
+  const { userFoods, total, setTotal, handleFoodRemove } = usePosts();
 
   const toggleBasket = () => {
     setIsExpanded(!isExpanded);
@@ -35,6 +35,12 @@ function UBasket() {
             <div key={index} className={styles.foodItem}>
               <h1 className={styles.foodName}>{food.name}</h1>
               <h1 className={styles.foodPrice}>{food.price}</h1>
+              <button
+                className={styles.deleteButton}
+                onClick={() => handleFoodRemove(food.name)}
+              >
+                ❌
+              </button>
             </div>
           ))}
           <div className={styles.total}>
